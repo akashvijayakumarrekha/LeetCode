@@ -29,6 +29,7 @@ Only one valid answer exists.
 
 
 def two_sum(num, target):
+    # Function to check the sum of two numbers and return the address location
     for i in range(len(num)):
         for j in range(i + 1, len(num)):
             if num[i] + num[j] == target:
